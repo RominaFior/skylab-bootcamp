@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Skylab Airlines</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel|Nanum+Myeongjo" rel="stylesheet">
+</head>
+<body>
+	<header id="headd">
+		<div class="wrapper">
+			<div class="logo">
+				Vola Airlines <img class="small" alt="eagle" src="styles\eagle1.png">
+			</div>
+			<nav>
+				<a href="#" id="back" onclick="location.reload()">INICIO</a>
+				<a href="#" >VUELOS</a>
+				<a href="#">HOTELES</a>
+			</nav>
+		</div>
+	</header>
+	<section class="contenido">
+		<div class="nombre" id="bienvenida">
+			<div class="name">
+				Introduzca su nombre por favor: <input id="userName" type="text" name="name">
+				<input type="submit" value="Enviar" id="enviar" onclick="welcome()">
+			</div>	
+		</div>
+		<div class="wrapper" id="cuerpo">
+
+			<p>Le damos una cordial bienvenida <span id="userNameHere"></span> </p>
+			<h2>Las mejores ofertas de hoy</h2>
+			
+			<a href="#barna">Salida de <span>Barcelona</span></a><button id="saber" onclick="display()">Saber más</button>
+			<br><br>
+			
+				<div class="desdebna" id="desdebna">
+					<img class="medium" src="styles\NY.jpg">
+					<div class="desc" id="desc">New York → </div>
+				</div >
+				<div class="desdebna" id="desdebna">	
+					<img class="medium" src="styles\PARIS.jpg">
+					<div class="desc" id="desc1">Paris → </div>
+				</div>	
+				<div class="desdebna" id="desdebna">	
+					<img class="medium" src="styles\ROMA.jpg">
+					<div class="desc" id="desc2">Roma → </div>
+				</div>	
+				<div class="desdebna" id="desdebna">	
+					<img class="medium" src="styles\madrid.jpg">
+					<div class="desc" id="desc3">Madrid → </div>
+				</div>	
+				<div class="desdebna" id="desdebna">	
+					<img class="medium" src="styles\shanghai.jpg">
+					<div class="desc" id="desc4">Sanghai → </div>
+				</div>	
+				<div class="desdebna" id="desdebna">	
+					<img class="medium" src="styles\sydney.jpg">
+					<div class="desc" id="desc5">Sydney → </div>
+				</div>
+			
+			
+			<a class="madd" href="#mad">Salida de <span> Madrid</span></a><button id="saber" onclick="display1()">Saber más</button>
+			<br><br>
+			
+				<div class="desdemad" id="desdemad">
+					<img class="medium" src="styles\LA.jpg">
+					<div class="desc" id="desc6">Los Angeles → </div>
+				</div>	
+				<div class="desdemad" id="desdemad">	
+					<img class="medium" src="styles\LONDON.jpg">
+					<div class="desc" id="desc7">Londres → </div>
+				</div>	
+				<div class="desdemad" id="desdemad">	
+					<img class="medium" src="styles\tokyo.jpg">
+					<div class="desc" id="desc8">Tokyo → </div>
+				</div>	
+				<div class="desdemad" id="desdemad">	
+					<img class="medium" src="styles\tel-aviv.jpg">
+					<div class="desc" id="desc9">Tel-Aviv → </div>
+				</div>
+
+		</div>
+		<div id="coste">
+			<span id="coste">Coste medio <button id="saber" onclick="average()">Saber más</button></span>
+		</div>
+		<div id="escala">
+			<span id="escala">Vuelos con escala <button id="saber" onclick="flightScale()">Ver</button></span>
+		</div>
+		<div id="destinos">
+			<span id="destinos">Últimos 5 vuelos del día<button id="saber" onclick="theId()">Ver</button></span>
+		</div>
+	</section>
+</div>
+<script src="app/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Advanced Markup</title>
+	<style type="text/css">
+		div{
+			margin: 20px;
+			width: 90%;
+		}
+		span{
+			color: orange;
+			font-weight: bold;
+		}
+		table, th, td {
+		    border: 1px solid black;
+		    font-size: 18px;
+		}
+		td{
+			color: #5B2C6F;
+			font-weight: bold;
+		}
+		h1{
+			font-size: 50px;
+		}
+		h2{
+			font-size: 30px;
+		}
+		p{
+			font-size: 20px;
+		}
+		h1, h2{
+			color: #196F3D;
+			}
+		img{
+			width: 40%;
+		}
+		ul, li{
+			font-size: 18px;
+		}
+		form{
+			margin: 20px;
+			color: #7B241C;
+			font-weight: bold;
+			font-size: 18px;
+		}
+		input[type=button]{
+			border-radius: 4px;
+		}
+		input[type=text]{
+			border-width: 1.5px;
+			margin-left: 10px;
+		}
+		input[type=email]{
+			border-width: 1.5px;
+			margin-left: 9px;
+		}
+		textarea{
+			width: 25%;
+			resize: vertical;
+			min-height: 80px;
+			max-height: 200px;
+			border-width: 1.5px;
+		}
+		footer{
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+<div class="principal">
+
+	<img src="C:\Users\fiorr\Desktop\Skylab\images\logo1.jpg" alt="logo">
+	
+
+<h1>About</h1>
+<p>It can be intimidating for women to learn and ask questions when they are in an <span> extreme minority</span>. While open and welcoming, today's budding developer community is up to <span> 91% male</span>. If we can empower more females whith the confidence in their technological capabilities <span><i>we can begin to change this landscape</i></span></p>
+
+<h2>Our Locations</h2>
+
+<ul>
+	<li><b>USA</b></li>
+		<ul>
+			<li><a href="#"> New York</a></li>
+			<li><a href="#">Colombus</a></li>
+			<li><a href="#">Austin</a></li>
+			<li><a href="#">Philly</a></li>
+		</ul>
+	<li><b>World</b></li>
+		<ul>
+		<li><a href="#">Ottawa</a></li>
+		<li><a href="#">Sydney</a></li>
+		</ul>
+</ul>
+<h2>Upcoming Classes</h2>
+
+<table>
+	<tr>
+		<th>Location</th>
+		<th>Topic</th>
+	</tr>
+	<tr>
+		<td>New York</td>
+		<td>JavaScript and JQuery</td>
+	</tr>
+	<tr>
+		<td>San Francisco</td>
+		<td>HTML and CSS</td>
+	</tr>
+</table>
+
+<h2>Sing up!</h2>
+<form>
+	<label for="name">Name:</label>
+	<input type="text" name="name" id="name"><br>
+	<label for="email">Email:</label>
+	<input type="email" name="Email" id="email"><br>
+	<label for="Location">Location:</label><br>
+	<select>
+		<option>San Francisco</option>
+		<option>New York</option>
+	</select><br><br>	
+	<fieldset>	
+	<legend>Gender:</legend>
+	<input type="radio" name="gender" value="male" > Male
+	<input type="radio" name="gender" value="female"> Female<br>
+	</fieldset><br><br>
+	<label for="Experience">Experience:</label><br>
+	<textarea name="Experience"></textarea><br>
+	<input type="button" name="Sing Up" value="Sing Up"><br><br>
+</form>
+
+<footer>
+	<a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Flickr</a>
+</footer>
+
+</div>
+</body>
+</html>

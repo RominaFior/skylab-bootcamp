@@ -1,0 +1,189 @@
+*{
+	margin: 0px;
+	padding:0px;
+	font-family: 'Amaranth', sans-serif;
+	color: #284370;
+	background-color: #468ef8;
+
+}
+h1{
+	font-size: 80px;
+	margin: 20px;
+	margin-right: 0px;
+	color: white;
+	text-align: center;
+	
+}
+button{
+	font-size: 16px;
+	padding: 8px;
+}
+#jugar{
+	font-size: 35px;
+	padding: 10px;
+	-webkit-box-shadow: 10px 10px 260px -31px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 260px -31px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 260px -31px rgba(0,0,0,0.75);
+	background-color: #3e4cf2;
+	color: white;
+	border: 1px solid white;
+	margin-left: 43%;	
+}
+#jugar:hover{
+	cursor: pointer;
+	color: #fcce54;
+	border-color: #fcce54;
+
+}
+#alphabet{
+	margin-left: 50px;
+	color: #325287;
+
+
+}
+.word{
+	border: 4px solid white;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 23px;
+	margin: 11px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	background-color: #333cb7;
+}
+#kids{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 25px;
+	color: ;
+	
+}
+.greenWord{
+	color: white;
+	background-color: #71c053;
+	border-color:#32ad36;
+}
+.redWord{
+	color: white;
+	background-color: #bc233d;
+	border-color: #8e192d;
+}
+input{
+	font-size: 16px;
+	margin: 20px;
+	width: 460px;
+	background-color: #ffe8ef;
+}
+p{
+	font-size: 25px;
+	margin: 10px;
+}
+#endGame{
+	font-size: 20px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	display: block;
+	background-color: #3e4cf2;
+	color: white;
+	border: 1px solid white;
+}
+#endGame:hover{
+	cursor: pointer;
+	background-color: #266eff;
+}
+.images{
+	width: 900px;
+	}
+
+img{
+	width: 130px;
+	padding-top: 0px;
+	float: right;
+}
+#owl{
+	margin-right: 50px;
+	margin-top: 21px;
+}
+#frog{
+	margin-top: 7px;
+}
+#dog{
+	margin-top: 4px;
+}
+#hare{
+	margin-right: 50px;
+}
+#pig{
+	margin-top: 27px;
+	margin-bottom: 30px;
+}
+#musicButton{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-left: 90px;
+	border:none;
+	color: white;
+}
+#musicButton:hover{
+	color:#fcce54;
+	border-color:#fcce54;
+	cursor: pointer;
+}
+strike{
+	font-size: 30px;
+	border:none;
+	color: white;
+}
+strike:hover{
+	color:#fcce54;
+	border-color:#fcce54;
+	cursor: pointer;
+}
+#results{
+	color: #ffbcd1; 
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+}
+#gameQuestion{
+	font-size: 30px;
+	color: #ffe8ef;
+	text-align: center;
+	padding: 20px;
+}
+
+#enviar{
+	background-color: #3e4cf2;
+	color: white;
+	border: 1px solid white;
+}
+#enviar:hover{
+	cursor: pointer;
+	background-color: #266eff;
+}
+#pasapalabra{
+	background-color: #3e4cf2;
+	color: white;
+	border: 1px solid white;
+}
+#pasapalabra:hover{
+	cursor: pointer;
+	background-color: #266eff;
+}
+#end{
+	background-color: #e8e8e8;
+	border:none;
+}
+#end:hover{
+	cursor: pointer;
+	background-color: white;
+	
+}
+#response{
+	text-align: center;
+}
+#images2{
+	margin-bottom: 20px;
+}
