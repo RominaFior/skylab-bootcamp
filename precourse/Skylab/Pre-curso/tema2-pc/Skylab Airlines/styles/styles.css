@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+}
+
+.small{
+	width: 50px;
+	
+}
+body{
+	background-color: #f2f2f2;
+}
+#headd{
+	background-color: #929eb9;
+}
+header{
+	width: 100%;
+	overflow: hidden;
+	}
+header .logo{
+	font-size: 35px;
+	line-height: 80px;
+	float: left;
+}
+header nav{
+	float: right;
+	line-height: 80px;
+}
+
+.wrapper{
+	width: 98%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header nav a {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-weight: bold;
+	font-size: 18px;
+}
+header nav a:hover{
+	color: white;
+	cursor: pointer;
+}
+#vuelos{
+	background-color: #e2e2fc;
+	color: black;
+	cursor: pointer;
+}
+.contenido{
+	width: 100%;
+	height: 1000px;
+	}
+.medium{
+	width: 180.2px;
+	height: 110px;
+	margin-top: 30px;
+}
+
+h2{
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+section .wrapper a{
+	text-decoration: none;
+	color: black;
+	margin-top: 50px;
+	padding: 15px;
+	border-bottom: 3px solid #5f6a80;
+}
+
+section .wrapper a:hover{
+	color: white;
+	background-color: #c2cadb;
+}
+div.desdebna{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 5px;	
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.desdebna:hover {
+    border: 1px solid #777;
+    background-color: white;
+    cursor: pointer;
+} 
+
+div.desdemad{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.desdemad:hover {
+    border: 1px solid #777;
+    background-color: white;
+    cursor: pointer;
+} 
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+span{
+	font-weight: bold;
+	color: #5f6a80;
+}
+.nombre{
+	position: relative;
+    background: #b0bfdf;
+    overflow: hidden;
+    width: 100%;
+    height: 800px;
+}
+.nombre:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('architecture.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+#userNameHere{
+	color: black;
+	font-weight: bold;
+	padding: 5px;
+}
+.name{
+	padding: 50px;
+	margin-top: 2%;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+} 
+#enviar{
+	font-size: 18px;
+	padding: 2px;
+}
+#enviar:hover{
+cursor: pointer;
+font-weight: bold;
+}
+p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Nanum Myeongjo', serif;
+	background-color: #d6bd99;
+	padding: 2px;
+}
+.separaMad{
+	margin-top: 50px;
+}
+#saber{
+	font-size: 16px;
+	padding: 2px;
+}
+#saber:hover{
+	cursor: pointer;
+}
+#coste{
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+#destinos{
+	margin-left: 20px;
+}
+#escala{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}

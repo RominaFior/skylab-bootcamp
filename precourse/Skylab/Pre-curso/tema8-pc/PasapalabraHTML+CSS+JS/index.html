@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pasapalabra</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Amaranth:700|Gloria+Hallelujah" rel="stylesheet">
+</head>
+<body>
+	<div id="tablero">
+
+		<h1>Pasapalabra<span id="kids">Kids</span></h1>
+		<button id="jugar" onclick="Game()">►Jugar!</button>
+		
+		<button id="endGame" onclick="location.reload()">►Volver a empezar</button>
+
+		<div id="alphabet">
+			<span class="word">A</span>
+			<span class="word">B</span>
+			<span class="word">C</span>
+			<span class="word">D</span>
+			<span class="word">E</span>
+			<span class="word">F</span>
+			<span class="word">G</span>
+			<span class="word">H</span>
+			<span class="word">I</span>
+			<span class="word">J</span>
+			<span class="word">K</span>
+			<span class="word">L</span>
+			<span class="word">M</span>
+			<span class="word">N</span>
+			<span class="word">O</span>
+			<span class="word">P</span>
+			<span class="word">Q</span>
+			<span class="word">R</span>
+			<span class="word">S</span>
+			<span class="word">T</span>
+			<span class="word">U</span>
+			<span class="word">V</span>
+			<span class="word">Y</span>
+			<span class="word">Z</span>
+		</div>
+
+		
+		<p id="gameQuestion"></p>
+			
+		
+		<div id="response">
+			<input type="text" id="write" autocomplete="off" autofocus="" placeholder="escribe aquí tu respuesta">
+			<button id="enviar" class="" onclick="checkAnswer()">enviar</button>
+			<button id="pasapalabra" onclick="passWord()">pasapalabra</button>
+			<button id="end" onclick="exitGame()">terminar el juego</button>
+		</div>
+		
+			<p id="results"></p>
+		<div id="images">
+			<img id="owl" src="styles/owl.png">
+			<img id="frog" src="styles/frog.png">
+			<img id="dog" src="styles/dog.png">
+			<img id="monkey" src="styles/monkey.png">
+		</div>
+		<div id="images2">
+			<img id="hare" src="styles/hare.png">
+			<img id="pig" src="styles/pig.png">
+		</div>
+		<button id="musicButton" onclick="musicButton()"><strike>♫</strike></button>
+		
+	</div>
+<script src="app/app.js"></script>
+</body>
+</html>
+

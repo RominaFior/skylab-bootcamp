@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		body{
+			background-color:#67be4b;
+		}
+		.cuerpo{
+			position: relative;
+
+		}
+		form{
+			background-color: white;
+			width: 25%;
+			margin: auto;
+			margin-top: 200px;
+			padding: 50px;
+			box-shadow: 20px 20px 90px grey;
+		}
+		input{
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+			margin-bottom: 20px;
+			width: 100%;
+			padding: 15px;
+			box-sizing: border-box;
+			background-color: #f2f2f2;
+			border: none;
+		}
+		p{
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+			color: gray;	
+		}
+		input[type="submit"]{
+			background-color: #71c053;
+			color: white;
+		}
+		a{
+			color: #71c053;
+		}
+	</style>
+</head>
+<body>
+	<div class="cuerpo">
+		
+		<form>
+			<input type="text" name="username" placeholder="username">
+			<input type="password" name="password" placeholder="password">
+			<input type="submit" name="LOGIN" value="LOGIN">
+
+			<p>Not registered? <a href="#">Create an account</a></p>
+		</form>
+		
+	</div>
+</body>
+</html>
